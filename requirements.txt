@@ -1,0 +1,10 @@
+
+streamlit
+pandas
+numpy
+scikit-learn
+joblib
+streamlit-geolocation
+folium
+streamlit-folium
+supabase
