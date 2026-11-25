@@ -36,7 +36,7 @@ supabase = obtenir_client_supabase()
 # 2. AUTHENTIFICATION DES UTILISATEURS
 # ==========================================
 
-URL_APPLICATION = "http://localhost:8501"
+URL_APPLICATION = st.secrets.get("APP_URL", "http://localhost:8501")
 
 # Récupération du retour de Google après authentification
 code_oauth = st.query_params.get("code")
